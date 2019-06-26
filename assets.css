@@ -1,0 +1,40 @@
+/* Homepage/Index Page */
+body {
+  background-color: bisque;
+}
+
+#header {
+  font-family: Verdana;
+  font-size: 70px;
+  letter-spacing: 3px;
+  text-align: center;
+  position: relative;
+  margin: 45px;
+  padding: 3px;
+}
+
+#header hr {
+  display: block;
+  margin-top: 1%;
+  opacity: 0.3;
+  border-color: #cccccc;
+}
+
+#header p {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+#homepics p {
+  font-family: Verdana;
+  font-size: 26px;
+  text-align: center;
+}
+
+#homepics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
